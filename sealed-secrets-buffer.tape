@@ -17,13 +17,13 @@ Sleep 2s
 Type clear
 Enter
 Show
-Type@300ms "vim secrets.yaml"
+Type@140ms "vim secrets.yaml"
 Enter
-Sleep 4s
+Sleep 3s
 Space
-Sleep 3s
+Sleep 2s
 Type "k"
-Sleep 3s
+Sleep 2s
 Type "s"
-Sleep 8s
-Type "ZZ"
+Sleep 6s
+Type "ZQ"

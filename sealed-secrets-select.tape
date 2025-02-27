@@ -17,20 +17,21 @@ Sleep 2s
 Type clear
 Enter
 Show
-Type@300ms "vim sealed-secrets.yaml"
+Type@140ms "vim sealed-secrets.yaml"
 Enter
 Type "gg"
-Sleep 4s
+Sleep 3s
 Type@120ms "jjjjjjjjjjjjjjj"
 Type "o"
 Type@240ms "PASSWD: P@ssWord"
+Sleep 1s
 Escape
 Ctrl+v
 Type "0"
 Space
-Sleep 3s
+Sleep 1s
 Type "k"
-Sleep 3s
+Sleep 2s
 Type "s"
-Sleep 8s
-Type "ZZ"
+Sleep 6s
+Type "ZQ"
