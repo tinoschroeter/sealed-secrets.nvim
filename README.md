@@ -1,14 +1,16 @@
 # 💥 sealed-secrets
 
-Neovim plugin that allows the conversion of Kubernetes secrets into sealed-secrets using kubeseal directly within the editor.
+Neovim plugin that allows the conversion of Kubernetes secrets into sealed-secrets using kubeseal directly within nvim.
 
 ## ✨ Features
 
 - Create a new sealed secrets file from an existing secret file.
+  - this will transform the hole Secret file into SealedSecret file.
 
 ![Buffer](./sealed-secrets-buffer.gif)
 
 - Mark a secret and convert it into a sealed secret. [shift key] + v
+  - this will just transform the selection to a SealedSecret.
 
 ![Select](./sealed-secrets-select.gif)
 
@@ -39,8 +41,8 @@ return {
 
 ## 🚀 Keymap
 
-- Normal Mode: <leader>ks or :KubesealEncrypt<CR>
-- Visual Mode: <leader>ks
+- Normal Mode: **leader** ks or :KubesealEncrypt<CR>
+- Visual Mode: **leader** ks
 
 ## 🔥 development
 
